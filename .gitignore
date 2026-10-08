@@ -1,0 +1,9 @@
+node_modules/
+dist/
+# sorties des tests navigateur
+captures/*
+!captures/station-poster.webp
+__pycache__/
+.lourd.lock
+.env
+.env.*

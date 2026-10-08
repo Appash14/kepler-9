@@ -1,0 +1,21 @@
+{
+  "name": "station-kepler-9",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4341",
+    "build": "vite build",
+    "preview": "vite preview --port 4340 --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@fontsource-variable/big-shoulders": "5.3.0",
+    "@fontsource-variable/newsreader": "5.3.0",
+    "gsap": "3.15.0",
+    "postprocessing": "6.39.5",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "vite": "8.3.2"
+  }
+}

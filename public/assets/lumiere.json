@@ -1,0 +1,94 @@
+{
+ "gi_max": 8.1078,
+ "empreinte_uv": "b7afb202217c213b",
+ "neutres": {
+  "defaut": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "anneau_int": [
+   0.4825,
+   0.404,
+   0.1749,
+   0.0665
+  ],
+  "anneau_ext": [
+   0.522,
+   0.2258,
+   0.0801,
+   0.0179
+  ],
+  "moyeu": [
+   0.567,
+   0.4626,
+   0.1494,
+   0.0301
+  ],
+  "quai": [
+   0.5003,
+   0.5032,
+   0.1421,
+   0.026
+  ],
+  "serre": [
+   0.4168,
+   0.3736,
+   0.1276,
+   0.0258
+  ],
+  "forge": [
+   0.7008,
+   0.8389,
+   0.1648,
+   0.021
+  ],
+  "observatoire": [
+   0.5087,
+   0.6028,
+   0.1968,
+   0.0387
+  ],
+  "antennes": [
+   0.5235,
+   0.5627,
+   0.178,
+   0.0358
+  ],
+  "panneaux_solaires": [
+   1,
+   0,
+   0,
+   0
+  ]
+ },
+ "zones": [
+  "defaut",
+  "anneau_int",
+  "anneau_ext",
+  "moyeu",
+  "quai",
+  "serre",
+  "forge",
+  "observatoire",
+  "antennes",
+  "panneaux_solaires"
+ ],
+ "marge_neutre": 0.035,
+ "taille_cuisson": 4096,
+ "echantillons_ao": 384,
+ "echantillons_gi": 1024,
+ "distance_ao": 6,
+ "peripherique": "OPTIX",
+ "gpu": [
+  "NVIDIA L40S"
+ ],
+ "encodage": "ao = lumiere-ao.r ; GI = lumiere-gi.rgb^2 * gi_max",
+ "fichiers": {
+  "lumiere-ao-2048.webp": 579996,
+  "lumiere-gi-1024.webp": 200756,
+  "lumiere-ao-1024.webp": 251442,
+  "lumiere-gi-512.webp": 74736
+ }
+}
